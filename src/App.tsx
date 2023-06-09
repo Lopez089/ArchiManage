@@ -1,11 +1,10 @@
 import React from 'react'
 import './App.css'
+import { ActionsMenu } from './components'
 
 function App () {
   return (
-    <h1>
-      Hola
-    </h1>
+    <ActionsMenu/>
   )
 }
 
