@@ -1,12 +1,7 @@
 import React from 'react'
 import './App.css'
+import { AuthGoogle } from './page'
 
-function App () {
-  return (
-    <h1>
-      Hola
-    </h1>
-  )
+export const App = () => {
+  return <AuthGoogle />
 }
-
-export default App
