@@ -1,11 +1,10 @@
 import React from 'react'
 import './App.css'
-import { ActionsMenu } from './components'
-import { menuOptions } from './constant'
+import { Button } from './components'
 
 function App () {
   return (
-    <ActionsMenu menuOptions={menuOptions}/ >
+    <Button text='hola' onClick={() => console.log('fun')} />
   )
 }
 
