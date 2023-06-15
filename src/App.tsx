@@ -1,10 +1,16 @@
 import React from 'react'
 import './App.css'
-import { Button } from './components'
+import { Detail } from './components'
 
 function App () {
   return (
-    <Button text='hola' onClick={() => console.log('fun')} />
+    <Detail
+      icon='error'
+      owner='Yo'
+      modified='3/3/23'
+      open='7/7/23'
+      created='9/9/22'
+    />
   )
 }
 
