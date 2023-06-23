@@ -20,7 +20,7 @@ export const File : Story = {
   }
 }
 
-export const folder : Story = {
+export const Folder : Story = {
   args: {
     typeElement: 'folder',
     nameElement: 'Forder 1'
