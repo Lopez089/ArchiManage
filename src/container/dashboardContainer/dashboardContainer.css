@@ -1,0 +1,12 @@
+.dashboardContainer {
+  background: #f3f3f3;
+  height: 100dvh;
+  display: grid;
+  grid-template-columns: 15vw 85vw;
+}
+
+.bodyDashboard {
+  height: 100dvh;
+  display: grid;
+  grid-template-rows: 5vh 90vh;
+}
